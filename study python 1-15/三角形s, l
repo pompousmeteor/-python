@@ -1,0 +1,16 @@
+""
+判断输入的边长能否构成三角形，如果能则计算出三角形的周长和面积
+
+
+"""
+x =float(input("x = "))
+y =float(input("y= "))
+z =float(input("z= "))
+if x+y>z and x+z<y and z+y<x:
+    s = x+y+z
+    print("%f" % (s))
+    l = x * y * z
+    print("%f" % (l))
+
+else:
+    print("构不成")
