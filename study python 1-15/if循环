@@ -1,0 +1,34 @@
+"""
+百分制成绩转换为等级制成绩
+：如果输入的成绩在90分以上（含90分）输出A；80分-90分（不含90分）输出B；70分-80分（不含80分）输出C；60分-70分（不含70分）输出D；60分以下输出E。
+
+"""
+x = float(input("输入成绩："))
+if x >= 90:
+   y = "A"
+elif x >= 80:
+    y = "B"
+elif x >= 70:
+    y = "C"
+elif x >= 60:
+    y = "D"
+else:
+    y = "E"
+print(y)
+
+
+参考：
+x = float(input("输入成绩："))
+if x >= 98:
+    print("A")
+else:
+    if 80 <= x < 90:
+        print("B")
+    else:
+        if 70 <= x < 80:
+            print("C")
+        else:
+            if 60 <= x < 70:
+                print("D")
+            else:
+                print("E")
