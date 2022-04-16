@@ -1,0 +1,16 @@
+import turtle as t
+t.screensize(500,500)
+t.pensize(4)
+t.pencolor("orange")
+t.speed(4)
+t.right(90)
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.penup()
+t.goto(100,0)
+t.pendown()
+t.right(90)
+t.forward(400)
+t.mainloop()
+
